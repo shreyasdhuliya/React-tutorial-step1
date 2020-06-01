@@ -41,7 +41,7 @@ import ReactFragments from './components/ReactFragments';
 //Example 12 pure component
 import ParentComponent from './containers/ParentComponent';
 
-//Example 13 Memos and refs
+//Example 13 Memos and refs/forwarding refs
 import RefsDemo from './containers/RefsDemo';
 import FocusInput from './components/FocusInput';
 
@@ -129,7 +129,7 @@ function App() {
         {/* defalult value in context */}
             {/*<ComponentA />*/}
         
-        <PostList />
+        {/*<PostList />*/}
 
     </div>
   );

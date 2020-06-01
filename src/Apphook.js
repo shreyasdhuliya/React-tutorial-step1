@@ -25,6 +25,21 @@ import MouseContainer from './HookComponents/MouseContainer';
 //exapmle 3 fetching data with useEffect
 import DataFetching from './HookComponents/DataFetching';
 
+//example 4 useContext
+
+
+//example 6 Usereducer(state,action), simple state and action
+import CounterUR from './HookComponents/CounterUR';
+import CounterUR2 from './HookComponents/CounterUR2';
+import CounterUR3 from './HookComponents/CounterUR3';
+
+//example 7 use reducer with usecontext
+import AppReducer from './HookComponents/AppReducer';
+
+//example 8 fetching, error and loading
+import DataFetchingOne from './HookComponents/DataFetchingOne';
+import DataFetchingTwo from './HookComponents/DataFetchingTwo';
+
 function Apphook(){
     return (
         <div>
@@ -42,7 +57,17 @@ function Apphook(){
 
             {/*<MouseContainer />*/}
 
-            <DataFetching />
+            {/*<DataFetching />*/}
+
+            {/*<CounterUR />*/}
+            {/*<CounterUR2 />*/}
+            {/*<CounterUR3/>*/}
+
+            {/*<AppReducer /> */}
+
+            {/*<DataFetchingOne /> */}
+            <DataFetchingTwo />
+
         </div>
     )
 };
